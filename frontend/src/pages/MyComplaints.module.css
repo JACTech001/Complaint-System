@@ -1,0 +1,10 @@
+.my-complaints {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.no-complaints {
+  text-align: center;
+  color: #6b7280;
+}

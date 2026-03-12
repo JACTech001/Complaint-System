@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.menuBtn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  color: #1f2937;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.dashboardContent {
+  margin-left: 0;
+  padding: 20px;
+  width: 100%;
+  transition: margin-left 0.3s ease;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+@media(min-width: 768px) {
+  .dashboardContent {
+    margin-left: 250px; /* space for sidebar */
+  }
+
+  .menuBtn {
+    display: none;
+  }
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #e0f2fe;
+  padding: 15px;
+  border-radius: 8px;
+}

@@ -1,0 +1,20 @@
+/* src/components/Footer.module.css */
+.footer {
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #fc4e2f, #2e66df);
+  color: #fff;
+  font-weight: 500;
+  position: 0; /* can be changed to fixed if you want it always at bottom */
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
